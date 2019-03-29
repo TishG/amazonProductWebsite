@@ -1,0 +1,91 @@
+nav span {
+  font-size: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+#about .product-photos {
+  height: 500px;
+  width: 500px;
+}
+
+.text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#gallery {
+  margin-top: 100px;
+}
+
+#call-to-action {
+  margin-top: 100px;
+}
+
+.btn-warning {
+  width: 400px;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #ff9900;
+  color: black;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px 0px #b8b8b8;
+          box-shadow: 0px 0px 5px 0px #b8b8b8;
+}
+
+#productPromotion {
+  margin-top: 100px;
+}
+
+#productPromotion img {
+  height: 285px;
+  width: 400px;
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+#form-container {
+  background-color: #e8e8e8;
+  padding: 20px;
+}
+
+#form-container button {
+  background-color: #505050;
+  border: none;
+}
+
+footer {
+  float: left;
+  font-size: 12px;
+  color: gray;
+}
+
+footer a {
+  color: lightgray;
+  font-size: 10px;
+}
+
+footer #social-media {
+  font-size: 22px;
+}
+/*# sourceMappingURL=main.css.map */

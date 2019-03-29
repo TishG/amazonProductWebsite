@@ -1,0 +1,83 @@
+$contact-and-gallery-margin: 100px;
+$form-bg-color: rgb(232,232,232);
+$submit-button-color:	rgb(80,80,80);
+
+nav {
+  span {
+    font-size: 12px;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+#about .product-photos {
+  height: 500px;
+  width: 500px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery {
+  margin-top: $contact-and-gallery-margin;
+}
+
+#call-to-action {
+  margin-top: $contact-and-gallery-margin;
+}
+
+.btn-warning {
+  width: 400px;
+  padding: 10px;
+  font-size: 30px;
+  background-color: rgb(255, 153, 0);
+  color: rgb(0, 0, 0);
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgb(184,184,184);
+}
+
+#productPromotion {
+  margin-top: $contact-and-gallery-margin;
+  img {
+    height: 285px;
+    width: 400px;
+  }
+}
+
+
+#contact {
+  margin-top: $contact-and-gallery-margin;
+}
+
+#form-container {
+  background-color: $form-bg-color;
+  padding: 20px;
+    button {
+      background-color: $submit-button-color;
+      border: none;
+    }
+}
+
+footer {
+  float: left;
+  font-size: 12px;
+  color: gray;
+    a {
+      color: lightgray;
+      font-size: 10px;
+    }
+    #social-media {
+      font-size: 22px;
+    }
+}
