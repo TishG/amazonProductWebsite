@@ -31,10 +31,13 @@ nav {
 
 #gallery {
   margin-top: $contact-and-gallery-margin;
+  #gallery-images {
+    display: none;
+  }
 }
 
 #call-to-action {
-  margin-top: $contact-and-gallery-margin;
+  padding-top: $contact-and-gallery-margin;
 }
 
 .btn-warning {
