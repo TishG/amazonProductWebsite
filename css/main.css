@@ -1,5 +1,6 @@
-nav span {
-  font-size: 12px;
+nav .navbar-toggler {
+  border: none;
+  font-size: 1.5em;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -33,7 +34,7 @@ nav span {
 }
 
 #gallery {
-  margin-top: 100px;
+  margin-top: 100px !important;
 }
 
 #gallery #gallery-images {
@@ -48,15 +49,15 @@ nav span {
   width: 400px;
   padding: 10px;
   font-size: 30px;
-  background-color: #ff9900;
-  color: black;
+  background-color: #ff9900 !important;
+  color: black !important;
   border: none;
-  -webkit-box-shadow: 0px 0px 5px 0px #b8b8b8;
-          box-shadow: 0px 0px 5px 0px #b8b8b8;
+  -webkit-box-shadow: 0px 0px 5px 0px #b8b8b8 !important;
+          box-shadow: 0px 0px 5px 0px #b8b8b8 !important;
 }
 
 #productPromotion {
-  margin-top: 100px;
+  margin-top: 100px !important;
 }
 
 #productPromotion img {
@@ -65,31 +66,31 @@ nav span {
 }
 
 #contact {
-  margin-top: 100px;
+  margin-top: 100px !important;
 }
 
 #form-container {
-  background-color: #e8e8e8;
+  background-color: #e8e8e8 !important;
   padding: 20px;
 }
 
 #form-container button {
-  background-color: #505050;
-  border: none;
+  background-color: #505050 !important;
+  border: none !important;
 }
 
 footer {
-  float: left;
-  font-size: 12px;
-  color: gray;
+  float: left !important;
+  font-size: 12px !important;
+  color: gray !important;
 }
 
 footer a {
-  color: lightgray;
-  font-size: 10px;
+  color: lightgray !important;
+  font-size: 10px !important;
 }
 
 footer #social-media {
-  font-size: 22px;
+  font-size: 22px !important;
 }
 /*# sourceMappingURL=main.css.map */
