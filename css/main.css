@@ -33,11 +33,11 @@ nav .navbar-toggler {
           align-items: center;
 }
 
-#gallery {
+.gallery {
   margin-top: 100px !important;
 }
 
-#gallery #gallery-images {
+.gallery #gallery-images {
   display: none;
 }
 
