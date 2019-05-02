@@ -1,11 +1,15 @@
 $contact-and-gallery-margin: 100px;
 $form-bg-color: rgb(232,232,232);
 $submit-button-color:	rgb(80,80,80);
+$icon-green: rgb(134, 190, 71);
 
 nav {
   .navbar-toggler {
     border: none;
     font-size: 1.5em;
+  }
+  #company {
+    font-size: 12px;
   }
 }
 
@@ -41,14 +45,20 @@ nav {
   padding-top: $contact-and-gallery-margin;
 }
 
-.btn-warning {
+#call-to-action-button {
   width: 400px;
   padding: 10px;
   font-size: 30px;
-  background-color: rgb(255, 153, 0) !important;
+  background-color: rgb(255, 153, 0);
+  transition: background-color 600ms ease;
   color: rgb(0, 0, 0) !important;
   border: none;
   box-shadow: 0px 0px 5px 0px rgb(184,184,184) !important;
+  cursor: pointer;
+}
+
+#call-to-action-button:hover {
+  background-color: rgb(255, 173, 0);
 }
 
 #productPromotion {
@@ -69,8 +79,11 @@ nav {
   background-color: $form-bg-color !important;
   padding: 20px;
     button {
-      background-color: $submit-button-color !important;
+      background-color: $submit-button-color;
       border: none !important;
+    }
+    button:hover {
+      background-color: gray;
     }
 }
 
@@ -84,5 +97,12 @@ footer {
     }
     #social-media {
       font-size: 22px !important;
+    }
+    #social-media i {
+      transition: color 500ms ease;
+      cursor: pointer;
+    }
+    #social-media i:hover {
+      color: $icon-green;
     }
 }
